@@ -1,2 +1,2 @@
 # github-test
-git连接测试
+GitHub下载代码到本地、本地代码上传到GitHub练习
