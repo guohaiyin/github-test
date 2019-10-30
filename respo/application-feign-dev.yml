@@ -1,7 +1,10 @@
 spring:
   application:
     name: hello-spring-cloud-fegin
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:8768
   zipkin:
     base-url: http://localhost:9411
 
