@@ -15,7 +15,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://admin:12345@localhost:8761/eureka/
 
 #feign自带熔断器默认是关闭的，要手动开启hystrix熔断器
 feign:
